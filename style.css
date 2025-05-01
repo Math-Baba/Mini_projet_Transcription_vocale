@@ -1,0 +1,116 @@
+/* style.css */
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf6f2;
+    background-image: url("image/Podcast\ Mic\ 3D\ Animated\ Icon.gif"), url("image/Equalizer\ 3D\ Animated\ Icon.gif"), url("image/layered.png");
+    background-repeat: no-repeat;
+    background-position: left center, right center, center center;
+    background-size: 500px 500px, 500px 500px, cover;
+
+}
+
+.utility_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color:#f08080;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.outer-box {
+    height: 100vh;
+}
+
+.inner-box {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-container {
+    gap: 15px;
+}
+
+.logo-text {
+    color: #0d1b2a;
+}
+
+.gfglogo {
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #4f000b;
+    /*background: linear-gradient(to right, #0f0c29, #302b63, #24243e);*/
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+  }
+  
+  button svg {
+    margin-right: 0px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button:hover svg {
+    transform: translateX(0px) rotate(90deg);
+  }
+  
+  button:hover span {
+    transform: translateX(5px);
+  }
+  
+
+.message {
+    width: 350px;
+    background-color:#fbc4ab;
+    height: 150px;
+    text-align: center;
+    color: black;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.para-text {
+    padding: 20px;
+}
+
+.sub-heading {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
