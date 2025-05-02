@@ -13,9 +13,16 @@ body{
     background-image: url("image/Podcast\ Mic\ 3D\ Animated\ Icon.gif"), url("image/Equalizer\ 3D\ Animated\ Icon.gif"), url("image/layered.png");
     background-repeat: no-repeat;
     background-position: left center, right center, center center;
-    background-size: 500px 500px, 500px 500px, cover;
-
+    background-size: 18.75rem 18.75rem, 18.75rem 18.75rem, cover;
 }
+
+@media (max-width: 768px) {
+    body {
+      background-image: url("image/layered.png"); /* on garde seulement l’image de fond */
+      background-size: cover;
+      background-position: center center;
+    }
+  }
 
 .utility_flex {
     display: flex;
