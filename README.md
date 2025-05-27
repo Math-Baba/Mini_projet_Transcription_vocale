@@ -10,4 +10,5 @@ Ce projet est une mini application web qui permet de transcrire la voix en texte
 * Transcription en temps réel de la parole en texte.
 * Compatible avec les navigateurs prenant en charge l’API SpeechRecognition (principalement Chrome).
 
-  
+# Auteur
+**Math-Baba** - [GitHub](https://github.com/Math-Baba)  
